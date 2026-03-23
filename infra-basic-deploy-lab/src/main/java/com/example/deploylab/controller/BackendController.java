@@ -12,7 +12,7 @@ public class BackendController {
     public String healthcheck() {
         return "healthcheck";
     }
-	
+
     @GetMapping("/backend")
     public String backend() {
         return "backend";
